@@ -9,14 +9,6 @@ def count_ans_group(group: str) -> int:
 assert count_ans_group('abc') == 3 
 assert count_ans_group('abac') == 3 
 
-#
-def count_ans_group(group: str) -> int:
-    """Conta quante risposte"""
-    return len(set(w for w in group))
-
-assert count_ans_group('abc') == 3 
-assert count_ans_group('abac') == 3 
-
 
 # # Prima parte
 # allstr = ''
